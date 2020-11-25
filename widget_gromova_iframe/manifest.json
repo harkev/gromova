@@ -1,0 +1,34 @@
+{
+        "widget":{
+                "name": "widget.name",
+                "description": "widget.description",
+                "short_description": "widget.short_description",
+                "version": "2.0.2",
+                "interface_version": 2,
+                "init_once": false,
+                "locale":[
+                        "ru",
+                        "en"
+                ],
+                "installation": true
+        },
+        "locations":[
+                "lcard-1",
+                "settings",
+		"cucard-1",
+		"ccard-1",
+		"comcard-1"
+        ],
+        "settings":{
+                "login":{
+                        "name": "settings.login",
+                        "type": "text",
+                        "required": false
+                },
+                "password":{
+                        "name": "settings.password",
+                        "type": "pass",
+                        "required": false
+                }
+        }
+}

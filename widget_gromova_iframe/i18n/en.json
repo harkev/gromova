@@ -1,0 +1,17 @@
+{
+    "widget": {
+        "name": "Demo widget",
+        "short_description": "Widget for sending the contact to the internal system",
+        "description": "Widget that is used to send data from the contact card on your domain # SUBDOMAIN # in the internal system"
+    },
+    "settings": {
+        "login": "Login",
+        "password": "Password"
+    },
+    "userLang": {
+        "firstWidgetText": "Please, click on the button, if you want:",
+        "textIntoTheButton": "Send Data",
+        "responseMessage" : "Server response:",
+        "responseError" : "Failed"
+    }
+}
